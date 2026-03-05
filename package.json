@@ -1,5 +1,5 @@
 {
-  "name": "postmark-cli",
+  "name": "@kindred-concepts/postmark-cli",
   "version": "1.6.19",
   "description": "A CLI tool for managing templates, sending emails, and fetching servers on Postmark.",
   "main": "./dist/index.js",
@@ -68,16 +68,19 @@
     "lint:prettier": "prettier --check .",
     "lint": "concurrently \"npm run lint:js\" \"npm run lint:prettier\""
   },
+  "publishConfig": {
+    "@kindred-concepts:registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/activecampaign/postmark-cli.git"
+    "url": "git+https://github.com/Kindred-Concepts/postmark-cli.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/activecampaign/postmark-cli/issues"
+    "url": "https://github.com/Kindred-Concepts/postmark-cli/issues"
   },
-  "homepage": "https://github.com/activecampaign/postmark-cli#readme",
+  "homepage": "https://github.com/Kindred-Concepts/postmark-cli#readme",
   "bin": {
     "postmark": "./dist/index.js"
   },

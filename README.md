@@ -1,3 +1,25 @@
+## Setup & Publishing
+
+### 1. Authenticate with GitHub Packages
+
+Create a GitHub Personal Access Token (classic) with `write:packages` permission, then log in:
+
+```bash
+npm login --scope=@kindred-concepts --registry=https://npm.pkg.github.com
+```
+
+- **Username:** Your GitHub username
+- **Password:** Your Personal Access Token
+- **Email:** Your email
+
+### 2. Publish
+
+```bash
+npm publish
+```
+
+---
+
 <h1 align="center">
   <img src="./media/header@2x.png" width="100%" style="max-width:1230px;" alt="Postmark CLI">
 </h1>
